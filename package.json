@@ -1,0 +1,39 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserslist": "^4.17.5",
+    "gh-pages": "^3.2.3",
+    "notiflix": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "pnotify": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build --public-url /goit-js-hw-13-image-finder/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dima-as/goit-js-hw-13-image-finder.git"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dima-as/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://Dima-as.github.io/goit-js-hw-13-image-finder#readme"
+}
