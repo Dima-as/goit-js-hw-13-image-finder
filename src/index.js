@@ -53,6 +53,11 @@ function onLoadMore() {
 
 function appendHitsMarkup(hits){
     listGallery.insertAdjacentHTML('beforeend',cardsTpl(hits));
+    if (hits.length === 0) {
+      return alert('По данному запросу данных больше нет!!!');
+    }
+    
+    
  
 }
 function clearHitsContainer(){

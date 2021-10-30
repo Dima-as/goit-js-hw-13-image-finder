@@ -27,9 +27,8 @@ h1,h2,h3,h4,h5,h6,p {
  }
 .gallery{
 display: flex;
-flex-wrap: wrap;
-    /* margin: 0px -10px 0px -10px; */
-    
+flex-wrap: wrap;  
+justify-content: center;
 }
 .gallery__list{
     display: flex;
@@ -47,6 +46,8 @@ flex-wrap: wrap;
 .img__card{
     max-width: 300px;
     max-height: 300px; 
+    float: left;
+    text-align: center;
 }
 .stats{
     padding: 10px;
